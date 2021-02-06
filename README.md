@@ -37,8 +37,10 @@ The Heroku deploy is linked to this repository, so when updating here on GitHub,
 ***
 
 Agora, um pouco de código  
+Now, a little bit of code  
 
 As linhas fundamentais para este projeto dar certo são as seguintes:  
+The fundamental lines for this project to succeed are the following:  
 
 ```javascript
 host: process.env.DATABASE_HOST,
@@ -47,9 +49,22 @@ database: process.env.DATABASE_NAME,
 username: process.env.DATABASE_USERNAME,
 password: process.env.DATABASE_PASSWORD,
 ```
-> config/database.js  
+> trecho do arquivo database.js que está dentro da pasta config  
+> excerpt from the database.js file that is inside the config folder  
 
 Para dar tudo certo é só configurar as variáveis correspondentes no Heroku  
+To be all right just set the corresponding variables in Heroku  
 
-Por exemplo, no caso da variável relacionada a hospedagem do banco de dados, criei no Heroku uma variável chamada DATABASE_HOST
-e coloquei o valor dela como o endereço do host, no caso **_freedb.tech_**
+Por exemplo, no caso da variável relacionada a hospedagem do banco de dados (DATABASE_HOST), criei no Heroku uma variável de mesmo nome 
+e coloquei o valor dela como o endereço do host, no caso **_freedb.tech_**  
+
+For example, in the case of the variable related to database hosting (DATABASE_HOST), I created in Heroku a variable of the same name
+and put its value as the host address, in the case  
+
+Depois é só fazer o mesmo para as outras quatro variáveis  
+Then just do the same for the other four variables  
+
+Para saber mais como configurar variáveis no Heroku, acesse  
+To learn more about setting variables in Heroku, visit  
+
+https://devcenter.heroku.com/articles/config-vars
