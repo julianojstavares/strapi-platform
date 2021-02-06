@@ -59,7 +59,7 @@ Por exemplo, no caso da variável relacionada a hospedagem do banco de dados (DA
 e coloquei o valor dela como o endereço do host, no caso **_freedb.tech_**  
 
 For example, in the case of the variable related to database hosting (DATABASE_HOST), I created in Heroku a variable of the same name
-and put its value as the host address, in the case  
+and put its value as the host address, in the case **_freedb.tech_**  
 
 Depois é só fazer o mesmo para as outras quatro variáveis  
 Then just do the same for the other four variables  
