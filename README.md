@@ -52,4 +52,4 @@ password: process.env.DATABASE_PASSWORD,
 Para dar tudo certo é só configurar as variáveis correspondentes no Heroku  
 
 Por exemplo, no caso da variável relacionada a hospedagem do banco de dados, criei no Heroku uma variável chamada DATABASE_HOST
-e coloquei o valor dela como o endereço do host, no caso **__freedb.tech__**
+e coloquei o valor dela como o endereço do host, no caso **_freedb.tech_**
