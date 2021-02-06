@@ -1,9 +1,9 @@
 # Strapi application
 
-Este é o repositório de um projeto Strapi hospedado no Heroku
+Este é o repositório de um projeto Strapi hospedado no Heroku  
 This is the repository for a Strapi project hosted on Heroku
 
-Você pode acessá-lo aqui 
+Você pode acessá-lo aqui   
 You can access it here
 
 https://strapi-platform.herokuapp.com/admin  
