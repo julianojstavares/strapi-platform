@@ -33,3 +33,23 @@ MySQL hosting was free
 GitHub hosting is also free
 
 The Heroku deploy is linked to this repository, so when updating here on GitHub, updates on Heroku too
+
+***
+
+Agora, um pouco de código  
+
+As linhas fundamentais para este projeto dar certo são as seguintes:  
+
+```javascript
+host: process.env.DATABASE_HOST,
+port: process.env.DATABASE_PORT,
+database: process.env.DATABASE_NAME,
+username: process.env.DATABASE_USERNAME,
+password: process.env.DATABASE_PASSWORD,
+```
+> config/database.js  
+
+Para dar tudo certo é só configurar as variáveis correspondentes no Heroku  
+
+Por exemplo, no caso da variável relacionada a hospedagem do banco de dados, criei no Heroku uma variável chamada DATABASE_HOST
+e coloquei o valor dela como o endereço do host, no caso **__freedb.tech__**
