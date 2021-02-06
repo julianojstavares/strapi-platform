@@ -11,7 +11,7 @@ https://strapi-platform.herokuapp.com/admin
 Este projeto foi criado e concluído sem custar dinheiro algum, além de bastante tempo de estudo  
 
 O Strapi é grátis  
-> (Iniciei ele em modo personalizado após já saber todas as informações da hospedagem remota do MySQL)
+> (Iniciei ele em modo personalizado após já saber todas as informações da hospedagem remota do MySQL)  
 > (tudo que tive que fazer foi executar o comando yarn create strapi-app nome-do-projeto e ir preenchendo o resto)
 
 A hospedagem do Heroku foi gratuita  
