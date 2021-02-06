@@ -11,10 +11,10 @@ https://strapi-platform.herokuapp.com/admin
 Este projeto foi criado e concluído sem custar dinheiro algum, além de bastante tempo de estudo  
 
 A hospedagem do Heroku foi gratuita  
-(Para o app não adormecer, dei a ele um pouco de café https://kaffeine.herokuapp.com/ e parece que deu certo)  
+> (Para o app não adormecer, dei a ele um pouco de café https://kaffeine.herokuapp.com/ e parece que deu certo)  
 
 A hospedagem do MySQL foi gratuita  
-(Usei o conceito de Banco de Dados como Serviço (DBaaS) e hospedei um banco MySQL gratuitamente no site https://freedb.tech/)  
+> (Usei o conceito de Banco de Dados como Serviço (DBaaS) e hospedei um banco MySQL gratuitamente no site https://freedb.tech/)  
 
 A hospedagem no GitHub também é gratuita  
 
@@ -25,10 +25,10 @@ O deploy no Heroku está vinculado a este repositório, então ao atualizar aqui
 This project was created and completed without costing any money, besides a lot of study time
 
 Heroku hosting was free  
-(For the app not to fall asleep, I gave him some coffee https://kaffeine.herokuapp.com/ and it looks like it worked)
+> (For the app not to fall asleep, I gave him some coffee https://kaffeine.herokuapp.com/ and it looks like it worked)
 
 MySQL hosting was free  
-(I used the concept of Database as a Service (DBaaS) and hosted a MySQL database for free at https://freedb.tech/)
+> (I used the concept of Database as a Service (DBaaS) and hosted a MySQL database for free at https://freedb.tech/)
 
 GitHub hosting is also free
 
