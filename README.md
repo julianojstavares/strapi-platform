@@ -1,5 +1,8 @@
 # Strapi application
 
+A seguir serão apresentados textos em inglês e português do Brasil  
+Next, texts in English and Brazilian Portuguese will be presented  
+
 Este é o repositório de um projeto Strapi hospedado no Heroku  
 This is the repository for a Strapi project hosted on Heroku
 
@@ -76,3 +79,28 @@ Para saber mais como configurar variáveis no Heroku, acesse
 To learn more about setting variables in Heroku, visit  
 
 https://devcenter.heroku.com/articles/config-vars
+
+
+***
+
+Se o Strapi está em produção, online no Heroku, como executá-lo localmente, em modo de desenvolvimento?  
+Basta criar um arquivo .env no projeto (dentro da pasta raiz) com as mesmas variáveis do banco de dados e seus respectivos valores  
+
+Exemplo:  
+> DATABASE_HOST=freedb.tech  
+
+Depois é só executar yarn develop na linha de comando e trabalhar no que for necessário  
+
+Não esqueça de checar se o arquivo .env consta declarado dentro .gitignore antes de subir as alterações para o GitHub  
+
+***  
+
+If Strapi is in production, online at Heroku, how to run it locally, in development mode?
+Just create an .env file in the project (inside the root folder) with the same variables as the database and their respective values
+
+Example:
+> DATABASE_HOST = freedb.tech
+
+Then just run yarn develop on the command line and work on whatever is necessary
+
+Don't forget to check if the .env file is declared inside .gitignore before uploading changes to GitHub
