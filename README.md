@@ -93,7 +93,7 @@ Crie o arquivo .env e preencha com as variáveis, linha por linha
 
 Depois é só executar yarn develop na linha de comando e trabalhar no que for necessário  
 
-Não esqueça de checar se o arquivo .env consta declarado dentro .gitignore antes de subir as alterações para o GitHub  
+Não esqueça de checar se o arquivo .env consta declarado dentro .gitignore antes de subir as alterações para o GitHub 
 
 ***  
 
@@ -108,3 +108,11 @@ Create the .env file and fill in the variables, line by line
 Then just run yarn develop on the command line and work on whatever is necessary  
 
 Don't forget to check if the .env file is declared inside .gitignore before uploading changes to GitHub  
+
+***  
+### Se você gosta de atalhos, crie automaticamente o arquivo .env executando o seguinte comando na interface de linha de comando local  
+### If you like shortcuts, automatically create the .env file by running the following command on the local command line interface  
+
+```bash
+heroku config -a strapi-platform -s >> .env
+```
