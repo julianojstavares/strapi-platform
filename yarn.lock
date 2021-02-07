@@ -3080,6 +3080,14 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
+ckey@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/ckey/-/ckey-1.0.2.tgz#2e48dca16b1ac2bda531c31b652b394c2631a858"
+  integrity sha512-ZIm8riGVEvkIM5TdgR/UiCVO+FZ4jHNjIqftR35DRlB/MlS9f5mmFgF1GHXt0xrx1LzcKqahWsJ+u7jj7HUkFA==
+  dependencies:
+    dotenv "^6.1.0"
+    find-config "^1.0.0"
+
 class-utils@^0.3.5:
   version "0.3.6"
   resolved "https://registry.yarnpkg.com/class-utils/-/class-utils-0.3.6.tgz#f93369ae8b9a7ce02fd41faad0ca83033190c463"
@@ -4114,6 +4122,11 @@ dotenv@8.2.0, dotenv@^8.2.0:
   version "8.2.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
   integrity sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
+
+dotenv@^6.1.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-6.2.0.tgz#941c0410535d942c8becf28d3f357dbd9d476064"
+  integrity sha512-HygQCKUBSFl8wKQZBSemMywRWcEDNidvNbjGVyZu3nbZ8qq9ubiPoGLMdRDpfSrpkkm9BXYFkpKxxFX38o/76w==
 
 dottie@^2.0.0:
   version "2.0.2"

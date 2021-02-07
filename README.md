@@ -110,11 +110,11 @@ Then just run yarn develop on the command line and work on whatever is necessary
 Don't forget to check if the .env file is declared inside .gitignore before uploading changes to GitHub  
 
 ***  
-### Se você gosta de atalhos, crie automaticamente o arquivo .env executando o seguinte comando na interface de linha de comando local  
-### If you like shortcuts, automatically create the .env file by running the following command on the local command line interface  
+#### Para obter as variáveis do Heroku execute o seguinte comando na interface de linha de comando local  
+#### To obtain the Heroku variables run the following command on the local command line interface  
 
 ```bash
-heroku config -a APP -s >> .env
+heroku config -a APP -s
 ```
 
 > Substitua a palavra APP pelo nome do seu projeto  
