@@ -117,5 +117,5 @@ Don't forget to check if the .env file is declared inside .gitignore before uplo
 heroku config -a APP -s >> .env
 ```
 
-> Substitua a palavra APP pelo nome do seu projeto
-> Replace the word APP with the name of your project
+> Substitua a palavra APP pelo nome do seu projeto  
+> Replace the word APP with the name of your project  
