@@ -89,6 +89,8 @@ Basta criar um arquivo .env no projeto (dentro da pasta raiz) com as mesmas vari
 Exemplo:  
 > DATABASE_HOST=freedb.tech  
 
+Crie o arquivo .env e preencha com as variáveis, linha por linha  
+
 Depois é só executar yarn develop na linha de comando e trabalhar no que for necessário  
 
 Não esqueça de checar se o arquivo .env consta declarado dentro .gitignore antes de subir as alterações para o GitHub  
@@ -99,8 +101,10 @@ If Strapi is in production, online at Heroku, how to run it locally, in developm
 Just create an .env file in the project (inside the root folder) with the same variables as the database and their respective values
 
 Example:
-> DATABASE_HOST = freedb.tech
+> DATABASE_HOST = freedb.tech  
 
-Then just run yarn develop on the command line and work on whatever is necessary
+Create the .env file and fill in the variables, line by line  
 
-Don't forget to check if the .env file is declared inside .gitignore before uploading changes to GitHub
+Then just run yarn develop on the command line and work on whatever is necessary  
+
+Don't forget to check if the .env file is declared inside .gitignore before uploading changes to GitHub  
