@@ -114,5 +114,8 @@ Don't forget to check if the .env file is declared inside .gitignore before uplo
 ### If you like shortcuts, automatically create the .env file by running the following command on the local command line interface  
 
 ```bash
-heroku config -a strapi-platform -s >> .env
+heroku config -a APP -s >> .env
 ```
+
+> Substitua a palavra APP pelo nome do seu projeto
+> Replace the word APP with the name of your project
