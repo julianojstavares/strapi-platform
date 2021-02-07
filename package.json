@@ -11,6 +11,8 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "dotenv": "^8.2.0",
+    "find-config": "^1.0.0",
     "knex": "<0.20.0",
     "mysql": "latest",
     "mysql2": "^2.2.5",
@@ -20,7 +22,9 @@
     "strapi-connector-bookshelf": "3.4.6",
     "strapi-plugin-content-manager": "3.4.6",
     "strapi-plugin-content-type-builder": "3.4.6",
+    "strapi-plugin-documentation": "3.4.6",
     "strapi-plugin-email": "3.4.6",
+    "strapi-plugin-graphql": "3.4.6",
     "strapi-plugin-upload": "3.4.6",
     "strapi-plugin-users-permissions": "3.4.6",
     "strapi-utils": "3.4.6"
